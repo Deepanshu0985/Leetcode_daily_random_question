@@ -18,4 +18,8 @@ class Solution:
 
 
         return total
+    
+matrix =[[0,1,1,1],[1,1,1,1],[0,1,1,1]]
+obj = Solution()
+print(obj.countSquares(matrix))
         
